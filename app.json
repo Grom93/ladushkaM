@@ -4,7 +4,7 @@
     "slug": "ladushkaM",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/img/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,13 +18,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "ladushkaMPCT.ladushkaapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/img/icon2.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f15cf4d9-abf3-412f-8ff1-05deaf6ca707"
+      }
     }
   }
 }
